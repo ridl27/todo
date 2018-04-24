@@ -112,8 +112,7 @@ $(document).ready(function () {
 	// История 
 		function State(){
 			AllTasks=$('#listOfTasks').html();
-			localStorage.setItem('all', AllTasks);
-			// localStorage.clear(); - шоби почистить. можна в консоль					
+			localStorage.setItem('all', AllTasks);								
 		}
 
 });
